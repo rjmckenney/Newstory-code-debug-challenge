@@ -1,0 +1,18 @@
+.navBar{
+    display: flex;
+    height: 100px;
+    min-width: 100vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 3;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #282c34;
+}
+a:hover{
+    color: blue;
+}

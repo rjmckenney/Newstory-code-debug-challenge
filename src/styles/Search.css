@@ -1,0 +1,47 @@
+.searchContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.searchInput {
+    min-height: 20px;
+    font-size: 16px;
+    min-width: 120px;
+    padding: 5px;
+}
+
+.searchSubmit {
+    min-height: 20px;
+    font-size: 16px;
+    min-width: 60px;
+    padding: 5px;
+}
+.searchSubmit:active {
+    transform: scale(.95);
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+.searchImage {
+    margin-top: 10px;
+    max-width: 500px;
+}
+
+img{
+    margin: 50px;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.comicContainer{
+    max-width: 70%;
+}
